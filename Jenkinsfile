@@ -44,12 +44,5 @@ pipeline {
             deleteDir()
         }
         
-        success {
-            // Send success notification
-        }
-        
-        failure {
-            // Send failure notification
-        }
     }
 }
